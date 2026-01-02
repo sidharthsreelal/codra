@@ -3,6 +3,15 @@
 local-first ai coding assistant. runs 100% offline with ollama.
 no cloud. no telemetry. just python + llm.
 
+## Installation
+
+1. clone the repo:
+   ```
+   git clone https://github.com/sidharthsreelal/codra.git
+   cd codra
+   ```
+2. no pip requirements needed (standard library only).
+
 ## Setup
 
 1. install ollama (ollama.com)
