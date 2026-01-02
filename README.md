@@ -1,9 +1,9 @@
-# codra
+# Codra
 
 local-first ai coding assistant. runs 100% offline with ollama.
 no cloud. no telemetry. just python + llm.
 
-## setup
+## Setup
 
 1. install ollama (ollama.com)
 2. get a model:
@@ -16,7 +16,7 @@ no cloud. no telemetry. just python + llm.
    python run.py
    ```
 
-## how it works
+## How it works
 
 it's got 4 agents running inside:
 - **planner**: breaks stuff down
@@ -27,7 +27,7 @@ it's got 4 agents running inside:
 they talk to each other over a local message bus.
 everything is stored in `~/.codra`.
 
-## commands
+## Commands
 
 - `help`         - show commands
 - `model <name>` - switch model (e.g. `model mistral`)
@@ -37,7 +37,7 @@ everything is stored in `~/.codra`.
 - `clear`        - wipe screen
 - `quit`         - bye
 
-## troubleshooting
+## Troubleshooting
 
 **ollama connection error?**
 make sure `ollama serve` is running in another terminal.
